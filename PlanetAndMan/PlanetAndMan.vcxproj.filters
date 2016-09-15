@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CODE">
+      <UniqueIdentifier>{2c2b0954-33ac-4050-808a-f594b3216106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\app">
+      <UniqueIdentifier>{2ec8487f-80c6-47a1-a70d-ad3a4d0f1bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\triangulation">
+      <UniqueIdentifier>{fba93d1e-c431-4842-88eb-298a583550c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\camera">
+      <UniqueIdentifier>{312950ae-992e-4e5f-bb84-cb497e26f554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\input">
+      <UniqueIdentifier>{d50037f1-205a-422f-996d-f2c1bfa9e3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\input\keytranslators">
+      <UniqueIdentifier>{448d5448-4a5d-422e-83fd-10a665277a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\input\keytranslators\default">
+      <UniqueIdentifier>{7b919502-6088-4eab-9d31-cc2e8fbeabfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\input\applier">
+      <UniqueIdentifier>{efdedb30-5f68-44d1-bb4f-55a47d97a400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\input\applier\controls">
+      <UniqueIdentifier>{fd66c487-9946-4e12-a67c-1465e4826062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\input\applier\controls\button">
+      <UniqueIdentifier>{fa7a78ac-b296-4505-b911-2cd8f7cb2e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\input\applier\controls\trigger">
+      <UniqueIdentifier>{ec6b1f4e-d17b-4f55-904f-cfe5b3229271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\camera\targetcamera">
+      <UniqueIdentifier>{28464246-64f4-4433-8de1-03f1f8559e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\SHADERS">
+      <UniqueIdentifier>{a929ecb7-aed9-4bf8-a545-d8dd75a9be56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\SHADERS\terrain">
+      <UniqueIdentifier>{8e778161-3572-4e77-aaae-3bf70589c14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\SHADERS\water">
+      <UniqueIdentifier>{55b086c2-0cff-4574-a7a2-a553ff632f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\math">
+      <UniqueIdentifier>{2d3f6c5b-1444-431f-82a4-6a4b0f0fc0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\SHADERS\man">
+      <UniqueIdentifier>{5cbf8865-4898-4f5a-88b1-c20f63038d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\character">
+      <UniqueIdentifier>{a543d911-0fbc-4ffd-99e7-0ad4294b0a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\macro">
+      <UniqueIdentifier>{21e785e7-ff3c-4848-92b6-ea63603a1e40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>CODE</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>CODE\input\applier\controls\trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>CODE\input\applier\controls\button</Filter>
+    </ClCompile>
+    <ClCompile Include="TrianPlane.cpp">
+      <Filter>CODE\triangulation</Filter>
+    </ClCompile>
+    <ClCompile Include="TrianPoint.cpp">
+      <Filter>CODE\triangulation</Filter>
+    </ClCompile>
+    <ClCompile Include="TrianSphere.cpp">
+      <Filter>CODE\triangulation</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanetAndMan.cpp">
+      <Filter>CODE\app</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>CODE\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlsApplier.cpp">
+      <Filter>CODE\input\applier</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyTranslatorDefault.cpp">
+      <Filter>CODE\input\keytranslators\default</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyTranslator.cpp">
+      <Filter>CODE\input\keytranslators</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>CODE\input\applier\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetCamera.cpp">
+      <Filter>CODE\camera\targetcamera</Filter>
+    </ClCompile>
+    <ClCompile Include="controlmapping.cpp">
+      <Filter>CODE\input</Filter>
+    </ClCompile>
+    <ClCompile Include="pam_math.cpp">
+      <Filter>CODE\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>CODE\character</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>CODE</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>CODE</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>CODE\input\applier\controls\trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>CODE\input\applier\controls\button</Filter>
+    </ClInclude>
+    <ClInclude Include="TrianPlane.h">
+      <Filter>CODE\triangulation</Filter>
+    </ClInclude>
+    <ClInclude Include="TrianPoint.h">
+      <Filter>CODE\triangulation</Filter>
+    </ClInclude>
+    <ClInclude Include="TrianSphere.h">
+      <Filter>CODE\triangulation</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanetAndMan.h">
+      <Filter>CODE\app</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>CODE\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlsApplier.h">
+      <Filter>CODE\input\applier</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyTranslatorDefault.h">
+      <Filter>CODE\input\keytranslators\default</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyTranslator.h">
+      <Filter>CODE\input\keytranslators</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>CODE\input\applier\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetCamera.h">
+      <Filter>CODE\camera\targetcamera</Filter>
+    </ClInclude>
+    <ClInclude Include="controlmapping.h">
+      <Filter>CODE\input</Filter>
+    </ClInclude>
+    <ClInclude Include="pam_math.h">
+      <Filter>CODE\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>CODE\character</Filter>
+    </ClInclude>
+    <ClInclude Include="pam_macro.h">
+      <Filter>CODE\macro</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="water_ps.fx">
+      <Filter>CODE\SHADERS\water</Filter>
+    </FxCompile>
+    <FxCompile Include="water_vs.fx">
+      <Filter>CODE\SHADERS\water</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_hs.fx">
+      <Filter>CODE\SHADERS\terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_ps.fx">
+      <Filter>CODE\SHADERS\terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_vs.fx">
+      <Filter>CODE\SHADERS\terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="man_ps.fx">
+      <Filter>CODE\SHADERS\man</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_ds.fx">
+      <Filter>CODE\SHADERS\terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="man_vs.fx">
+      <Filter>CODE\SHADERS\man</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
